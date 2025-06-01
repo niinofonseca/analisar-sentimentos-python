@@ -1,0 +1,35 @@
+
+TESTE OPÇÃO 1
+
+"Esse serviço foi excelente, amei o atendimento!"
+- Comentário positivo (palavras como "excelente" e "amei" têm peso 2)
+
+
+"Achei muito ruim e confuso. Não gostei!"
+- Comentário negativo (palavras com peso 1 e 2 como "ruim", "confuso")
+
+
+"O serviço é bom mas a demora é chato."
+- Comentário neutro ou ambíguo (um positivo + um negativo, ambos peso 1)
+
+
+
+TESTE OPÇÃO 2
+
+{"1": "esse produto é excelente e muito confiável.","2": "gostei muito do atendimento, foi perfeito!","3": "péssimo serviço, totalmente decepcionante.","4": "esse lugar é horrível, não gostei nada.","5": "o produto é bom, mas o atendimento foi confuso.","6": "não gostei muito, mas também não é péssimo."}
+
+- Comentário 1: Positivo 
+- Comentário 2: Positivo 
+- Comentário 3: Negativo
+- Comentário 4: Negativo 
+- Comentário 5: Neutro 
+- Comentário 6: Positivo
+
+
+{"1": "Esse produto é ótimo, recomendo demais!","2": "Simplesmente péssimo, uma verdadeira decepção.","3": "Gostei, mas achei um pouco limitado.","4": "Perfeito! Superou todas as expectativas.","5": "Não é dos piores, mas é ruim."}
+
+- Comentário 1: Positivo (palavras como "ótimo")
+- Comentário 2: Negativo (palavras como "péssimo", "decepção")
+- Comentário 3: Neutro ou ambíguo ("gostei" vs "limitado")
+- Comentário 4: Positivo (palavra forte "perfeito")
+- Comentário 5: Negativo (frase negativa, presença de "ruim")
