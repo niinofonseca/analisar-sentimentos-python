@@ -1,34 +1,36 @@
-# Analisador de Sentimentos em Comentários
+# 🧠 Sentiment Analyzer for Comments
 
-## 🧠 Sobre o projeto
+## About the Project
 
-Este projeto em equipe tem como objetivo desenvolver um **sistema de análise de sentimentos** capaz de identificar, classificar e pesar emoções em comentários escritos em **português**.
+This team project aims to develop a sentiment analysis system capable of identifying, classifying, and weighting emotions in comments written in Brazilian Portuguese.
 
-A aplicação lê comentários individuais ou em lote (formato JSON) e classifica cada um como **positivo**, **negativo** ou **neutro**, com base em palavras-chave pré-definidas e seus respectivos pesos.  
-Além disso, implementamos o **tratamento de negações** (ex: “não gostei”, “não é ruim”) para melhorar a precisão da análise.
-
----
-
-## 🔍 Funcionalidades
-
-- Identificação de palavras positivas e negativas  
-- Atribuição de pesos conforme intensidade das palavras  
-- Tratamento de negações para evitar classificações erradas  
-- Interface simples via terminal  
-- Suporte a múltiplos comentários em JSON
+The application reads individual comments or batches of comments (in JSON format) and classifies each one as **positive**, **negative**, or **neutral**, based on predefined keywords and their corresponding weights.  
+It also implements **negation handling** (e.g., “não gostei”, “não é ruim”) to improve analysis accuracy.
 
 ---
 
-## 🛠️ Tecnologias
+## 🔍 Features
 
-- Python 3.13
-- Bibliotecas padrão: `json`, `string`  
-- Códigos ANSI para colorir saída no terminal
+- Detection of positive and negative words  
+- Weighting based on word intensity  
+- Handling of negations to avoid misclassification  
+- Simple terminal-based interface  
+- Support for multiple comments in JSON format  
 
 ---
 
-## 🚀 Como usar
+## 🛠️ Technologies
 
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/sentiment-analyzer-br.git
+- Python 3.13  
+- Standard libraries: `json`, `string`  
+- ANSI escape codes for colored terminal output  
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/sentiment-analyzer-br.git
+cd sentiment-analyzer-br
